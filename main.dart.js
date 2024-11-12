@@ -40895,7 +40895,7 @@ var $async$t5=A.H(function(a,b){if(a===1){p=b
 s=q}while(true)switch(s){case 0:n.Y(new A.aku(n))
 q=3
 m=B.d.eE(n.d.a.a)
-k=A.dz("http://hamzastyle.online:3000/admin/login",0,null)
+k=A.dz("https://hamzastyle.online:3000/admin/login",0,null)
 j=t.N
 i=A.aB(["Content-Type","application/json"],j,j)
 s=6
