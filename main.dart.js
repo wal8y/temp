@@ -7485,13 +7485,13 @@ m=h.h(a,"timestamp")
 m=m==null?i:J.c_(m)
 m=A.aNb(m==null?"":m)
 if(m==null)m=new A.dS(Date.now(),0,!1)
-l=A.m1(h.h(a,"totalAmountUSD"))
+l=A.m1(h.h(a,"priceUSD"))
 if(l==null)l=i
 if(l==null)l=0
-k=A.m1(h.h(a,"totalAmountSAR"))
+k=A.m1(h.h(a,"priceSAR"))
 if(k==null)k=i
 if(k==null)k=0
-j=A.m1(h.h(a,"totalAmountYER"))
+j=A.m1(h.h(a,"priceYER"))
 if(j==null)j=i
 if(j==null)j=0
 h=h.h(a,"status")
