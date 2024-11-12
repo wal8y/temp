@@ -40934,7 +40934,7 @@ pf(){var s=0,r=A.L(t.H),q,p=2,o,n=[],m=this,l,k,j,i,h,g,f,e
 var $async$pf=A.G(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:m.Y(new A.akK(m))
 p=4
-i=A.dz("https://localhost:3000/admin/login",0,null)
+i=A.dz("http://localhost:3000/admin/login",0,null)
 h=t.N
 g=A.aw(["Content-Type","application/json"],h,h)
 s=7
@@ -41482,7 +41482,7 @@ $2(a,b){var s,r,q,p,o=null,n=this.b.b
 n.toString
 s=J.bj(n,b)
 n=s.d
-n=n!=null?A.LM("https://localhost:3000"+n,new A.alz(),o,o,o):B.hj
+n=n!=null?A.LM("http://localhost:3000"+n,new A.alz(),o,o,o):B.hj
 r=A.b3(s.b,o,o,o,o,o,o)
 q=A.b3("YER "+A.j(s.w),o,o,o,o,o,o)
 p=this.a
@@ -41515,7 +41515,7 @@ A.a1X.prototype={
 $2(a,b){var s,r,q=null,p=this.a,o=p.gqu(0).gaJ(0),n=A.a6(o,!0,A.k(o).i("m.E"))[b]
 o=n.b
 s=o.d
-s=s!=null?A.LM("https://localhost:3000"+s,q,B.e8,100,100):B.hj
+s=s!=null?A.LM("http://localhost:3000"+s,q,B.e8,100,100):B.hj
 r=t.p
 return A.y1(new A.bM(B.ev,A.hG(A.b([s,B.Pa,A.p7(A.c9(A.b([A.b3(o.b,q,q,q,A.F(a).p2.w,q,q),new A.yo(new A.a1U(n),q,q,t.WS)],r),B.as,B.D,B.O),1),A.hG(A.b([A.i4(q,B.nv,q,new A.a1V(p,n),q,q),A.b3(""+n.c,q,q,q,q,q,q),A.i4(q,B.jG,q,new A.a1W(p,n),q,q)],r),B.J,B.D,B.O)],r),B.J,B.D,B.O),q),q,B.n0)},
 $S:326}
@@ -41769,7 +41769,7 @@ $S:345}
 A.arO.prototype={
 $2(a,b){var s=this.a.e
 s===$&&A.a()
-return new A.B6(new A.pW("https://localhost:3000"+A.j(s[b]),1,null),B.eS,new A.n9("covered",2))},
+return new A.B6(new A.pW("http://localhost:3000"+A.j(s[b]),1,null),B.eS,new A.n9("covered",2))},
 $S:348}
 A.arP.prototype={
 $0(){return A.cV(this.a,!1).dU()},
@@ -41784,7 +41784,7 @@ $S:0}
 A.arY.prototype={
 $2(a,b){var s=null,r=this.a,q=r.e
 q===$&&A.a()
-return A.jS(s,A.LM("https://localhost:3000"+A.j(q[b]),new A.arW(),B.e8,s,s),B.K,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.arX(r,a,b),s,s,s,s,s,s)},
+return A.jS(s,A.LM("http://localhost:3000"+A.j(q[b]),new A.arW(),B.e8,s,s),B.K,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.arX(r,a,b),s,s,s,s,s,s)},
 $S:116}
 A.arX.prototype={
 $0(){return this.a.adq(this.b,this.c)},
@@ -41799,7 +41799,7 @@ $S:96}
 A.as0.prototype={
 $2(a,b){var s=null,r=this.a,q=A.aBN(r.d===b?A.F(a).ax.b:B.u,2),p=r.e
 p===$&&A.a()
-return A.jS(s,A.dQ(s,A.LM("https://localhost:3000"+A.j(p[b]),s,B.e8,s,s),B.r,s,s,new A.dm(s,s,q,s,s,s,B.aI),s,B.ES,s,80),B.K,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.arU(r,b),s,s,s,s,s,s)},
+return A.jS(s,A.dQ(s,A.LM("http://localhost:3000"+A.j(p[b]),s,B.e8,s,s),B.r,s,s,new A.dm(s,s,q,s,s,s,B.aI),s,B.ES,s,80),B.K,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.arU(r,b),s,s,s,s,s,s)},
 $S:116}
 A.arU.prototype={
 $0(){this.a.f.T9(this.b,B.dt,B.bQ)},
@@ -41889,7 +41889,7 @@ A.e1.prototype={
 j4(){var s=0,r=A.L(t.F5),q,p,o
 var $async$j4=A.G(function(a,b){if(a===1)return A.I(b,r)
 while(true)switch(s){case 0:s=3
-return A.E(A.aI_(A.dz("https://localhost:3000/api/products",0,null),null),$async$j4)
+return A.E(A.aI_(A.dz("http://localhost:3000/api/products",0,null),null),$async$j4)
 case 3:o=b
 if(o.b===200){p=J.iH(B.aZ.dG(0,A.aAz(A.aAe(o.e).c.a.h(0,"charset")).dG(0,o.w)),new A.a0B(),t.U_)
 q=A.a6(p,!0,p.$ti.i("az.E"))
@@ -41900,7 +41900,7 @@ return A.K($async$j4,r)},
 wF(a){return this.ZL(a)},
 ZL(a){var s=0,r=A.L(t.H),q,p
 var $async$wF=A.G(function(b,c){if(b===1)return A.I(c,r)
-while(true)switch(s){case 0:q=A.dz("https://localhost:3000/api/orders",0,null)
+while(true)switch(s){case 0:q=A.dz("http://localhost:3000/api/orders",0,null)
 p=t.N
 p=A.aw(["Content-Type","application/json"],p,p)
 s=2
@@ -41911,7 +41911,7 @@ return A.K($async$wF,r)},
 ot(){var s=0,r=A.L(t.Yw),q,p,o,n,m
 var $async$ot=A.G(function(a,b){if(a===1)return A.I(b,r)
 while(true)switch(s){case 0:n=A
-m=A.dz("https://localhost:3000/api/orders",0,null)
+m=A.dz("http://localhost:3000/api/orders",0,null)
 s=4
 return A.E(A.kA(),$async$ot)
 case 4:s=3
@@ -41927,7 +41927,7 @@ ut(a){return this.akM(a)},
 akM(a){var s=0,r=A.L(t.H),q,p
 var $async$ut=A.G(function(b,c){if(b===1)return A.I(c,r)
 while(true)switch(s){case 0:q=A
-p=A.dz("https://localhost:3000/api/orders/"+a,0,null)
+p=A.dz("http://localhost:3000/api/orders/"+a,0,null)
 s=3
 return A.E(A.kA(),$async$ut)
 case 3:s=2
@@ -41938,7 +41938,7 @@ return A.K($async$ut,r)},
 r0(a,b,c){return this.arB(a,b,c)},
 arB(a4,a5,a6){var s=0,r=A.L(t.H),q=1,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3
 var $async$r0=A.G(function(a7,a8){if(a7===1){p=a8
-s=q}while(true)switch(s){case 0:a1=A.aPQ("POST",A.dz("https://localhost:3000/api/products",0,null))
+s=q}while(true)switch(s){case 0:a1=A.aPQ("POST",A.dz("http://localhost:3000/api/products",0,null))
 a2=a4.f
 A.iG(a2)
 k=a4.r
@@ -41999,7 +41999,7 @@ uu(a){return this.akN(a)},
 akN(a){var s=0,r=A.L(t.H),q,p
 var $async$uu=A.G(function(b,c){if(b===1)return A.I(c,r)
 while(true)switch(s){case 0:q=A
-p=A.dz("https://localhost:3000/api/products/"+a,0,null)
+p=A.dz("http://localhost:3000/api/products/"+a,0,null)
 s=3
 return A.E(A.kA(),$async$uu)
 case 3:s=2
@@ -42010,7 +42010,7 @@ return A.K($async$uu,r)},
 w5(a,b,c,d){return this.arw(a,b,c,d)},
 arw(a,b,c,d){var s=0,r=A.L(t.H),q,p
 var $async$w5=A.G(function(e,f){if(e===1)return A.I(f,r)
-while(true)switch(s){case 0:q=A.dz("https://localhost:3000/api/products/"+a,0,null)
+while(true)switch(s){case 0:q=A.dz("http://localhost:3000/api/products/"+a,0,null)
 s=2
 return A.E(A.kA(),$async$w5)
 case 2:p=f
@@ -42025,7 +42025,7 @@ var $async$r_=A.G(function(c,d){if(c===1)return A.I(d,r)
 while(true)switch(s){case 0:s=2
 return A.E($.axF().r5(),$async$r_)
 case 2:if(d==null)throw A.e(A.cc("Not authenticated"))
-q=A.dz("https://localhost:3000/api/orders/"+a+"/status",0,null)
+q=A.dz("http://localhost:3000/api/orders/"+a+"/status",0,null)
 s=3
 return A.E(A.kA(),$async$r_)
 case 3:p=d
@@ -42038,7 +42038,7 @@ return A.K($async$r_,r)},
 w6(a,b,c,d){return this.arx(a,b,c,d)},
 arx(a,b,c,d){var s=0,r=A.L(t.H),q,p
 var $async$w6=A.G(function(e,f){if(e===1)return A.I(f,r)
-while(true)switch(s){case 0:q=A.dz("https://localhost:3000/api/products/"+a+"/sale",0,null)
+while(true)switch(s){case 0:q=A.dz("http://localhost:3000/api/products/"+a+"/sale",0,null)
 s=2
 return A.E(A.kA(),$async$w6)
 case 2:p=f
@@ -42190,7 +42190,7 @@ G(a){var s,r,q,p=this,o=null,n=p.e
 n===$&&A.a()
 s=p.a.c
 r=s.d
-r=r!=null?A.LM("https://localhost:3000"+r,o,B.e8,o,o):B.hj
+r=r!=null?A.LM("http://localhost:3000"+r,o,B.e8,o,o):B.hj
 q=t.p
 return A.jS(o,A.k_(A.agA(A.y1(A.hK(B.bk,A.b([A.c9(A.b([A.p7(A.ayJ(r,o,o,o,s.a,!1),1),new A.bM(B.ev,A.c9(A.b([A.b3(s.b,2,B.aL,o,A.F(a).p2.w,o,o),B.Pc,A.oR(new A.arF(p),t.zh)],q),B.as,B.D,B.O),o)],q),B.as,B.D,B.O),A.qd(o,A.i4(o,A.zz(B.FP,A.F(a).ax.b,o,30),o,new A.arG(p,a),o,o),o,o,o,0,0,o)],q),B.t,B.bc,o),5,o),n),B.bM,o,new A.arH(p),new A.arI(p),o),B.K,!1,o,o,o,o,o,o,o,o,o,o,o,o,o,new A.arJ(p,a),o,o,o,o,o,o)},
 l(){var s=this.d
